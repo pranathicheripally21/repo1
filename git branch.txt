@@ -1,0 +1,47 @@
+[4:55 PM] dhamothara kannan
+1. To see all the branches. 
+
+       git branch          
+ 
+2. To create branch  
+
+        git branch branch_name
+ 
+3. To move into a branch. 
+
+      git checkout branch_name      
+ 
+4. To create a branche and also move into it. 
+
+       git checkout -b branch_name      
+ 
+5. To merge a branch. 
+
+      git merge branch_name  
+ 
+6. to delete a branch that is merge. 
+
+      git branch -d branch_name         (softdelete)
+ 
+7. to delete a branch that is not merged. 
+
+      git branch D branch_name
+
+
+git init 
+   chat.txt  
+ 
+  git add . 
+  git commit -m "chat added "
+ 
+git branch feature1branch   (created a new branch)
+git checkout feature1branch   (switching to the branch) 
+      status.txt 
+      call.txt 
+   git add . 
+   git commit -m "added new feature"
+ 
+git checkout master   (switch to the master branch)
+git merge feature1branch   (merging with the main branch).
+ 
+git branch -d feature1branch  ( after merge we can delete the branch).
